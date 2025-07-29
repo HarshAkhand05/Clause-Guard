@@ -4,6 +4,7 @@ cd legal-risk-app/backend
 
 # Step 2: Setup venv and activate (Windows example)
 python -m venv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 venv\Scripts\activate
 
 # Step 3: Install requirements
